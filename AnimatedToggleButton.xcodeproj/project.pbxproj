@@ -12,16 +12,18 @@
 		3D3196EB1E5AF72A0026BCB9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D3196E91E5AF72A0026BCB9 /* Main.storyboard */; };
 		3D3196ED1E5AF72A0026BCB9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D3196EC1E5AF72A0026BCB9 /* Assets.xcassets */; };
 		3D3196F01E5AF72A0026BCB9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D3196EE1E5AF72A0026BCB9 /* LaunchScreen.storyboard */; };
+		3D3196F81E5AF8A60026BCB9 /* ButtonX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D3196F71E5AF8A60026BCB9 /* ButtonX.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		3D3196E21E5AF72A0026BCB9 /* AnimateButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimateButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D3196E21E5AF72A0026BCB9 /* AnimatedToggleButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimatedToggleButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D3196E51E5AF72A0026BCB9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3D3196E71E5AF72A0026BCB9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3D3196EA1E5AF72A0026BCB9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3D3196EC1E5AF72A0026BCB9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3D3196EF1E5AF72A0026BCB9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3D3196F11E5AF72A0026BCB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D3196F71E5AF8A60026BCB9 /* ButtonX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonX.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,7 +40,7 @@
 		3D3196D91E5AF72A0026BCB9 = {
 			isa = PBXGroup;
 			children = (
-				3D3196E41E5AF72A0026BCB9 /* AnimateButton */,
+				3D3196E41E5AF72A0026BCB9 /* AnimatedToggleButton */,
 				3D3196E31E5AF72A0026BCB9 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -46,14 +48,15 @@
 		3D3196E31E5AF72A0026BCB9 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3D3196E21E5AF72A0026BCB9 /* AnimateButton.app */,
+				3D3196E21E5AF72A0026BCB9 /* AnimatedToggleButton.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		3D3196E41E5AF72A0026BCB9 /* AnimateButton */ = {
+		3D3196E41E5AF72A0026BCB9 /* AnimatedToggleButton */ = {
 			isa = PBXGroup;
 			children = (
+				3D3196F71E5AF8A60026BCB9 /* ButtonX.swift */,
 				3D3196E51E5AF72A0026BCB9 /* AppDelegate.swift */,
 				3D3196E71E5AF72A0026BCB9 /* ViewController.swift */,
 				3D3196E91E5AF72A0026BCB9 /* Main.storyboard */,
@@ -61,15 +64,16 @@
 				3D3196EE1E5AF72A0026BCB9 /* LaunchScreen.storyboard */,
 				3D3196F11E5AF72A0026BCB9 /* Info.plist */,
 			);
+			name = AnimatedToggleButton;
 			path = AnimateButton;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		3D3196E11E5AF72A0026BCB9 /* AnimateButton */ = {
+		3D3196E11E5AF72A0026BCB9 /* AnimatedToggleButton */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3D3196F41E5AF72A0026BCB9 /* Build configuration list for PBXNativeTarget "AnimateButton" */;
+			buildConfigurationList = 3D3196F41E5AF72A0026BCB9 /* Build configuration list for PBXNativeTarget "AnimatedToggleButton" */;
 			buildPhases = (
 				3D3196DE1E5AF72A0026BCB9 /* Sources */,
 				3D3196DF1E5AF72A0026BCB9 /* Frameworks */,
@@ -79,9 +83,9 @@
 			);
 			dependencies = (
 			);
-			name = AnimateButton;
+			name = AnimatedToggleButton;
 			productName = AnimateButton;
-			productReference = 3D3196E21E5AF72A0026BCB9 /* AnimateButton.app */;
+			productReference = 3D3196E21E5AF72A0026BCB9 /* AnimatedToggleButton.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -96,11 +100,12 @@
 				TargetAttributes = {
 					3D3196E11E5AF72A0026BCB9 = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = QY8PV2R65U;
 						ProvisioningStyle = Automatic;
 					};
 				};
 			};
-			buildConfigurationList = 3D3196DD1E5AF72A0026BCB9 /* Build configuration list for PBXProject "AnimateButton" */;
+			buildConfigurationList = 3D3196DD1E5AF72A0026BCB9 /* Build configuration list for PBXProject "AnimatedToggleButton" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -113,7 +118,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3D3196E11E5AF72A0026BCB9 /* AnimateButton */,
+				3D3196E11E5AF72A0026BCB9 /* AnimatedToggleButton */,
 			);
 		};
 /* End PBXProject section */
@@ -136,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D3196F81E5AF8A60026BCB9 /* ButtonX.swift in Sources */,
 				3D3196E81E5AF72A0026BCB9 /* ViewController.swift in Sources */,
 				3D3196E61E5AF72A0026BCB9 /* AppDelegate.swift in Sources */,
 			);
@@ -258,9 +264,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = QY8PV2R65U;
 				INFOPLIST_FILE = AnimateButton/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.theiOSDeveloper.AnimateButton;
+				PRODUCT_BUNDLE_IDENTIFIER = com.theiOSDeveloper.AnimatedToggleButton;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -270,9 +278,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = QY8PV2R65U;
 				INFOPLIST_FILE = AnimateButton/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.theiOSDeveloper.AnimateButton;
+				PRODUCT_BUNDLE_IDENTIFIER = com.theiOSDeveloper.AnimatedToggleButton;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -281,7 +291,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3D3196DD1E5AF72A0026BCB9 /* Build configuration list for PBXProject "AnimateButton" */ = {
+		3D3196DD1E5AF72A0026BCB9 /* Build configuration list for PBXProject "AnimatedToggleButton" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3D3196F21E5AF72A0026BCB9 /* Debug */,
@@ -290,13 +300,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3D3196F41E5AF72A0026BCB9 /* Build configuration list for PBXNativeTarget "AnimateButton" */ = {
+		3D3196F41E5AF72A0026BCB9 /* Build configuration list for PBXNativeTarget "AnimatedToggleButton" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3D3196F51E5AF72A0026BCB9 /* Debug */,
 				3D3196F61E5AF72A0026BCB9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

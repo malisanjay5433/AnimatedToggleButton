@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "3D3196E11E5AF72A0026BCB9"
-               BuildableName = "AnimateButton.app"
-               BlueprintName = "AnimateButton"
-               ReferencedContainer = "container:AnimateButton.xcodeproj">
+               BuildableName = "AnimatedToggleButton.app"
+               BlueprintName = "AnimatedToggleButton"
+               ReferencedContainer = "container:AnimatedToggleButton.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "3D3196E11E5AF72A0026BCB9"
-            BuildableName = "AnimateButton.app"
-            BlueprintName = "AnimateButton"
-            ReferencedContainer = "container:AnimateButton.xcodeproj">
+            BuildableName = "AnimatedToggleButton.app"
+            BlueprintName = "AnimatedToggleButton"
+            ReferencedContainer = "container:AnimatedToggleButton.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -56,9 +56,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "3D3196E11E5AF72A0026BCB9"
-            BuildableName = "AnimateButton.app"
-            BlueprintName = "AnimateButton"
-            ReferencedContainer = "container:AnimateButton.xcodeproj">
+            BuildableName = "AnimatedToggleButton.app"
+            BlueprintName = "AnimatedToggleButton"
+            ReferencedContainer = "container:AnimatedToggleButton.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -75,9 +75,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "3D3196E11E5AF72A0026BCB9"
-            BuildableName = "AnimateButton.app"
-            BlueprintName = "AnimateButton"
-            ReferencedContainer = "container:AnimateButton.xcodeproj">
+            BuildableName = "AnimatedToggleButton.app"
+            BlueprintName = "AnimatedToggleButton"
+            ReferencedContainer = "container:AnimatedToggleButton.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
